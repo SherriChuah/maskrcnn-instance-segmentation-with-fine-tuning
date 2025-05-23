@@ -1,0 +1,14 @@
+name: "foodseg-env"
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip:
+    - torch
+    - torchvision
+    - Pillow
+    - numpy
+    - matplotlib
+    - tqdm
+    
